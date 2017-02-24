@@ -45,7 +45,9 @@ defmodule PersianCalendar.Mixfile do
   #   {:mydep, git: "https://github.com/elixir-lang/mydep.git", tag: "0.1.0"}
   #
   # Type "mix help deps" for more examples and options
-  defp deps do
-    []
+  def deps do
+    [
+      {:ex_doc, "~> 0.12", only: :dev},
+    ]
   end
 end
