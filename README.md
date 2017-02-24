@@ -9,10 +9,10 @@ get current shamsi date in {year, month, day} format
 
 convert any gregorian date to shamsi
 ```elixir
-    PersianCalendar.from_milady {2017,02,24}
+    PersianCalendar.from_milady {2017,2,24}
 ```
 
 or shamsi to gregorian
 ```elixir
-    PersianCalendar.from_shamsi {2017,02,24}
+    PersianCalendar.from_shamsi {1395,12,6}
 ```
