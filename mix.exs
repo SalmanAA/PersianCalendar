@@ -31,7 +31,7 @@ defmodule PersianCalendar.Mixfile do
       name: :persian_calendar,
       files: ["lib", "mix.exs", "README.md", "LICENSE"],
       maintainers: ["Salman Arab Ameri"],
-      licenses: ["Apache 2.0"]
+      licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/SalmanAA/PersianCalendar"}
     ]
   end
